@@ -18,7 +18,7 @@ function Stats(props) {
     <div className="stats_body">
       {Navbar(username, email)}
       <div className="stats_lolinator">
-        {LoLinator(systemMessage, greetMessage, props.username, props.email)}
+        {LoLinator(systemMessage, greetMessage, username, email)}
         <p className='stats_p'>The meta analyser</p>
         <img className='stats_img' src="https://cdn.discordapp.com/attachments/991326241321930813/1178069106788925450/lolicon2.jfif?ex=6574cd5a&is=6562585a&hm=51128e74806e36f421d2a3f9e630525b7111d10092fd4cf730470426f17feadb&" />
       </div>

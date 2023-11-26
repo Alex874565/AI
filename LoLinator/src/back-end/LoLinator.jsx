@@ -21,9 +21,8 @@ function LoLinator(systemMessage, greetMessage, username, email) {
     await $.ajax({
       url:"http://localhost/LoLinator/question.php",
       method: "post",
-      data: serializedData,
-      success: (resp) => {console.log(resp)}
-    });
+      data: serializedData
+    }).then((resp) => {console.log(resp)});
   }
 
   const handleSend = async (message) => {
@@ -81,6 +80,8 @@ function LoLinator(systemMessage, greetMessage, username, email) {
       }])
       setIsTyping(false);
       console.log("Updating history...");
+      console.log(email);
+      console.log(chatMessages[chatMessages.length - 1].message.replaceAll("'", "") + '\n\n\n' + data.choices[0].message.content.replaceAll("'", ""))
       updateHistory(email, chatMessages[chatMessages.length - 1].message.replaceAll("'", ""), data.choices[0].message.content.replaceAll("'", ""));
       console.log("History updated!");
     });

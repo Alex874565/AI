@@ -19,14 +19,20 @@
     font-size: 20px;
     border-bottom: 2px solid rgb(96, 45, 20);
     max-height: 860px;
+    
 }
 
 .scrollbar-container{
     &.cs-message-list__scroll-wrapper{
         &.ps{
             padding: 10px;
+            padding-right: 20px;
         }
     }
+}
+
+.cs-message__content-wrapper{
+    z-index: 20 !important;
 }
 
 .cs-message__content{
@@ -46,6 +52,7 @@
 
 .cs-typing-indicator{
     background-color: rgb(207, 166, 134) !important;
+    z-index: 1 !important;
 }
 
 .cs-typing-indicator__text{
