@@ -1,0 +1,94 @@
+.contact_body{
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    max-height: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    /*url("https://th.bing.com/th/id/R.140a7745ef0112997e1fc4daeab15980?rik=gQS94feVOHHI0A&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f09%2f22%2fleague-of-legends-lol-hd-wallpaper_043828622_233.jpg&ehk=yuYPJeOTkZlgfssc0ZpQgdhgxdDqZ%2bZkDSRamAl4adI%3d&risl=&pid=ImgRaw&r=0");
+    url("https://getwallpapers.com/wallpaper/full/1/1/2/728890-download-free-teemo-wallpapers-1920x1080-photo.jpg");
+    */url("https://th.bing.com/th/id/R.b93e23185151d0f327e5eea83226fb86?rik=1N284oSmK4M2wA&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+.contact_div {
+    font-size: 70px;
+    padding-top: 100px;
+    color: rgb(96, 45, 20);
+    text-align: center;
+}
+
+.contact_name{
+    margin-top: 0px;
+    color: rgb(56, 0, 0);
+}
+
+.contact_email{
+    margin-top: 0px;
+    color: rgb(56, 0, 0);
+}
+
+.contact_p{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.contact_form{
+    margin-top: 10px;
+    min-width: 50%;
+}
+
+.contact_form textarea{
+    resize: none;
+    width: 50%;
+    height: 300px;
+    margin-left: 24%;
+    padding: 1%;
+    margin-bottom: 0px;
+    background-color: rgb(255, 223, 177); 
+    color: rgb(96, 45, 20);
+    font-size: 30px;
+    font-weight: 600;
+    border: 10px solid rgb(96, 45, 20);
+    overflow-y: scroll;
+    &:focus{
+        outline-width: 0px;
+    }
+    &::-webkit-input-placeholder{
+        font-family: 'Rocky';
+        color:rgb(96, 45, 20, 0.6);
+    }
+    &::-webkit-scrollbar{
+        width: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: rgb(56, 0, 0);
+    }
+    &::-webkit-scrollbar-corner{
+        display: none;
+    }
+    &::-webkit-scrollbar-track{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.contact_form button{
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30%;
+    margin-top: 0px;
+    font-size: 40px;
+    background-color: rgb(255, 223, 177);
+    color: rgb(96, 45, 20);
+    font-family: 'Rocky';
+    border: 10px solid rgb(96, 45, 20);
+    cursor: pointer;
+    &:active{
+        transform: translateX(-5px);
+    }
+}

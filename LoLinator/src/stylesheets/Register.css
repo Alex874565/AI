@@ -1,0 +1,102 @@
+.register_body {
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background:linear-gradient(rgba(255, 255, 255,0), rgba(255, 255, 255, 0)),
+    /*url("https://th.bing.com/th/id/R.140a7745ef0112997e1fc4daeab15980?rik=gQS94feVOHHI0A&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f09%2f22%2fleague-of-legends-lol-hd-wallpaper_043828622_233.jpg&ehk=yuYPJeOTkZlgfssc0ZpQgdhgxdDqZ%2bZkDSRamAl4adI%3d&risl=&pid=ImgRaw&r=0");
+    */url(https://getwallpapers.com/wallpaper/full/1/1/2/728890-download-free-teemo-wallpapers-1920x1080-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+#register_title{
+    width: 100%;
+    font-size: 150px;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 50px;
+
+    font-family: 'Rocky';
+    background-image: linear-gradient(to right, rgb(96, 45, 20), rgb(96, 45, 20));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#register_form form{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 70px;
+
+    font-family: 'Rocky';
+    background-image: linear-gradient(to right, rgb(96, 45, 20), rgb(96, 45, 20));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    display:table;
+}
+
+#register_form input{
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    min-width: fit-content;
+    background-color: rgb(251, 233, 187);
+    display: table-row;
+    color: rgb(96, 45, 20);
+    font-size: large; 
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(96, 45, 20);
+}
+
+#register_form input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px rgb(251, 221, 163) inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: rgb(96, 45, 20);
+}
+
+#register_form input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/ 0 0 0 50px rgb(251, 217, 151) inset;
+    -webkit-text-fill-color: rgb(96, 45, 20);
+}
+
+#register_form button{
+    margin-top: 50px;
+    padding: 15px;
+    font-size: x-large;
+    margin-left: 10px;
+    border-color: rgb(96, 45, 20);
+
+    font-family: 'Rocky';
+    font-weight: 2000;
+    background-color: rgb(251, 233, 187);
+    color: rgb(96, 45, 20);
+    display: table-row;
+}
+
+#register_form button:active{
+    background-color: rgb(201, 183, 137);
+    color: rgb(66, 25, 0);
+
+    transform: translateX(-5px);
+}
+
+#register_errors{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 70px;
+
+    font-family: 'Rocky';
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

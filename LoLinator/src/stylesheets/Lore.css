@@ -1,0 +1,31 @@
+.lore_body{
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  background:linear-gradient(rgba(255, 255, 255,0), rgba(255, 255, 255, 0)),
+  /*url("https://th.bing.com/th/id/R.140a7745ef0112997e1fc4daeab15980?rik=gQS94feVOHHI0A&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f09%2f22%2fleague-of-legends-lol-hd-wallpaper_043828622_233.jpg&ehk=yuYPJeOTkZlgfssc0ZpQgdhgxdDqZ%2bZkDSRamAl4adI%3d&risl=&pid=ImgRaw&r=0");
+  url("https://getwallpapers.com/wallpaper/full/1/1/2/728890-download-free-teemo-wallpapers-1920x1080-photo.jpg");
+  */url("https://th.bing.com/th/id/R.b93e23185151d0f327e5eea83226fb86?rik=1N284oSmK4M2wA&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.lore_p{
+    margin-left: 0px;
+    padding-top: 3%;
+    padding-left: 1%;
+    margin-top: 60px;
+    margin-right: 8%;
+    max-width: 20%;
+    color: rgb(96, 45, 20);
+    font-size: 100px;
+    float: right;
+}
+
+.lore_img{
+    width: 20%;
+    margin-top: 17%;
+}
