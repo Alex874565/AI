@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 function Stats(props) {
 
   const systemMessage = {
-    "role": "system", "content": "Give answers as a League of Legends expert. Please answer all further messages in the context of the champion tier list found on u.gg"
+    "role": "system", "content": "Give answers as a League of Legends expert. Please answer all further messages exclusively in the context of the champion tier list found on u.gg"
   }
 
   const { username, email } = useParams();

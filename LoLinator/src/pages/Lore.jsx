@@ -10,7 +10,7 @@ function Lore(props) {
   const { username, email } = useParams();
 
   const systemMessage = {
-    "role": "system", "content": "Give answers as a League of Legends lore expert. Please answer all further messages in the context of League of Legends lore."
+    "role": "system", "content": "Give answers as a League of Legends lore expert. Please answer all further messages exclusively in the context of League of Legends lore."
   }
 
   const greetMessage = `Hello, ${username}, I am LoLinator, your League of Legends lore expert. What do you want to know?`;

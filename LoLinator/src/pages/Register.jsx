@@ -7,6 +7,47 @@ function Register(){
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
     
+    async function email_validation(){
+        var request;
+        event.preventDefault();
+        if (request){
+            request.abort;
+        }
+        var form = $(this);
+        
+        var inputs = form.find("input, button");
+        
+        var serializedData = $("form :input").serialize();
+
+        inputs.prop("disabled", true);
+
+        request = await $.ajax({
+            url:"http://localhost/LoLinator/email_validation.php",
+            type: "post",
+            data: serializedData,
+            success: (resp) => {
+                if (resp == "exists"){
+                    $('#register_errors').text("Email already in use!");
+                }else if (resp == "Connect error"){
+                    alert("Email does not exist");
+                }else{
+                    var code = prompt("Please enter the code we sent you on email:")
+                    while(code != resp && code != null){
+                        code = prompt("Wrong code. Please enter the code again: ");
+                    }
+                    if(code == resp){
+                        php_req();
+                    }
+                }
+                console.log(resp);
+            },
+            always: (resp) => {
+                inputs.prop("disabled", false);
+                console.log(resp);
+            }
+        });
+    }
+
     async function php_req(){
         var request;
         event.preventDefault();
@@ -26,11 +67,9 @@ function Register(){
             type: "post",
             data: serializedData,
             success: (resp) => {
-                if (resp == "ok"){
+                if (resp == "user added"){
                     alert("User registered successfully!");
                     window.location.replace("./login");
-                }else if (resp == "exists"){
-                    $('#register_errors').text("Email already in use!");
                 }
                 console.log(resp);
             },
@@ -61,7 +100,7 @@ function Register(){
         }else if (username.length >= 16 || password.length >= 16){
             $('#register_errors').text("Username or password too long.");
         }else{
-            php_req();
+            email_validation();
         }
     }
     
