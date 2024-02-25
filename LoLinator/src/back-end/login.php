@@ -10,12 +10,19 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if($conn -> connect_error){
             exit("Eroare la conectare ". $conn -> connect_error);
         }
-        $result = $conn -> query("SELECT username FROM users WHERE email = '$email' and pass = '$password';");
+        $stmt = $conn -> prepare("SELECT username, pass FROM users WHERE email = ?");
+        $stmt -> bind_param("s", $email);
+        $stmt -> execute();
+        $result = $stmt -> get_result();
         if(mysqli_num_rows($result) == 0){
             echo "!exists";
         }else{
-            $username = mysqli_fetch_array($result);
-            echo $username['username'];
+            $res = mysqli_fetch_array($result);
+            if(password_verify($password, $res['pass'])){
+                echo $res['username'];
+            }else{
+                echo "!exists";
+            }
         }
     };
 }

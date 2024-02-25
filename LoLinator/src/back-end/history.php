@@ -11,9 +11,15 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             exit("Eroare la conectare " . $conn -> connect_error);
         }
         if($keyword != "undefined"){
-            $result = $conn -> query("SELECT question, answer FROM history WHERE email = '$email' AND (question LIKE '%$keyword%' OR answer LIKE '%$keyword%');");
+            $stmt = $conn -> prepare("SELECT question, answer FROM history WHERE email = ? AND (question LIKE CONCAT('%', ?, '%') OR answer LIKE CONCAT('%', ?, '%'));");
+            $stmt -> bind_param("sss", $email, $keyword, $keyword);
+            $stmt -> execute();
+            $result = $stmt -> get_result();
         }else{
-            $result = $conn -> query("SELECT question, answer FROM history WHERE email = '$email';");
+            $stmt = $conn -> prepare("SELECT question, answer FROM history WHERE email = ?;");
+            $stmt -> bind_param("s", $email); 
+            $stmt -> execute();
+            $result = $stmt -> get_result();
         }
         echo '
         <table>

@@ -11,7 +11,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if($conn -> connect_error){
             exit("Eroare la conectare ". $conn -> connect_error);
         }
-        $result = $conn -> query("INSERT INTO history(email, question, answer) VALUES  ('$email', '$message', '$answer');");
+        $stmt = $conn -> prepare("INSERT INTO history(email, question, answer) VALUES  (?, ?, ?);");
+        $stmt -> bind_param("sss", $email, $message, $answer);
+        $stmt -> execute();
+        $result = $stmt -> get_result();
         echo "History updated sucessfully.";
     }else{
         echo "Fields empty :(";
