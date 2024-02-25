@@ -1,0 +1,647 @@
+
+[
+    {
+        "name": "Aatrox",
+        "summary": "Darkin warrior from Targon, known for his formidable presence and demonic sword. Seeks chaos and revenge on the battlefield."
+    },
+    {
+        "name": "Ahri",
+        "summary": "Vastaya fox-mage from Ionia, manipulates essence to sustain herself. Mysterious and alluring."
+    },
+    {
+        "name": "Akali",
+        "summary": "Rogue assassin from Ionia, trained in the Kinkou Order. Uses shadows to outmaneuver and eliminate foes."
+    },
+    {
+        "name": "Akshan",
+        "summary": "Rogue marksman from Shurima. Sworn to avenge his mentor's death, Akshan uses his grappling hook and stealth to outmaneuver enemies."
+    },
+    {
+        "name": "Alistar",
+        "summary": "Minotaur support from the Freljord. A powerful tank and protector of the herd."
+    },
+    {
+        "name": "Amumu",
+        "summary": "Sad mummy from Shurima, cursed to bring despair. Seeks friendship despite his gloomy nature."
+    },
+    {
+        "name": "Anivia",
+        "summary": "Cryophoenix from Freljord, Anivia embodies the elemental magic of ice. Guardian of the Freljord, she seeks to maintain the balance of the world."
+    },
+    {
+        "name": "Annie",
+        "summary": "Dark child mage from Noxus, Annie wields powerful fire magic. Accompanied by her teddy bear, Tibbers, she is both adorable and deadly."
+    },
+    {
+        "name": "Aphelios",
+        "summary": "Weapon prodigy from Targon, Aphelios wields five different weapons, each with unique abilities. Master of the moon's power, driven by silent determination."
+    },
+    {
+        "name": "Ashe",
+        "summary": "Frost Archer and queen of Freljord. Aims to unite tribes against external threats. Masterful with her bow, Frost Shot, and enchanted arrow, Enchanted Crystal Arrow."
+    },
+    {
+        "name": "Aurelion Sol",
+        "summary": "Celestial dragon from Mount Targon, Aurelion Sol creates and controls stars. Fiercely independent, he crafts the cosmos and maintains balance."
+    },
+    {
+        "name": "Azir",
+        "summary": "Ascended emperor from Shurima, Azir commands an army of sand soldiers. Driven by ambition, he seeks to restore his fallen empire."
+    },
+    {
+        "name": "Bard",
+        "summary": "Cosmic caretaker and wanderer. Bard travels the universe, collecting meeps and aiding in the cosmic balance. Mysterious and enigmatic."
+    },
+    {
+        "name": "Blitzcrank",
+        "summary": "Steam Golem created in Zaun. Blitzcrank serves as a versatile and powerful automaton. Known for his signature Rocket Grab and Static Field."
+    },
+    {
+        "name": "Brand",
+        "summary": "Eternal Fire from the Freljord, Brand is a destructive elemental force bound to a mortal form. He seeks to engulf the world in eternal flames."
+    },
+    {
+        "name": "Braum",
+        "summary": "Heart of the Freljord, Braum is a mighty protector known for his enormous shield. A gentle giant with an unwavering sense of duty."
+    },
+    {
+        "name": "Caitlyn",
+        "summary": "Sheriff of Piltover, Caitlyn is a skilled marksman and detective. She upholds the law in Piltover with her precise aim and relentless pursuit of justice."
+    },
+    {
+        "name": "Camille",
+        "summary": "Steel Shadow from Piltover, Camille is a highly skilled and ruthless enforcer. Enhanced with hextech, she serves the higher echelons of society with precision and lethal grace."
+    },
+    {
+    "name": "Cassiopeia",
+    "summary": "Serpentine temptress from Noxus, Cassiopeia was cursed into a half-snake form. She seeks power and vengeance, using her potent venom in battle."
+  },
+  {
+    "name": "Cho'Gath",
+    "summary": "Void Terror from the Void, Cho'Gath is a massive and insatiable creature. Devouring everything in his path, he grows larger with each feast."
+  },
+  {
+    "name": "Corki",
+    "summary": "Yordle pilot from Bandle City, Corki is an ace aviator with a love for flying. He engages in aerial combat with his trusty modified aircraft, the ROFLcopter."
+  },
+  {
+    "name": "Darius",
+    "summary": "Hand of Noxus, Darius is a powerful and ruthless warrior. Armed with a massive axe, he seeks to expand the glory of Noxus on the battlefield."
+  },
+  {
+    "name": "Diana",
+    "summary": "Scorn of the Moon from Mount Targon, Diana is a fierce and disciplined warrior. Drawn to the moon's power, she wields a crescent blade in the name of the Lunari."
+  },
+  {
+    "name": "Cassiopeia",
+    "summary": "Serpentine temptress from Noxus, Cassiopeia was cursed into a half-snake form. She seeks power and vengeance, using her potent venom in battle."
+  },
+  {
+    "name": "Cho'Gath",
+    "summary": "Void Terror from the Void, Cho'Gath is a massive and insatiable creature. Devouring everything in his path, he grows larger with each feast."
+  },
+  {
+    "name": "Corki",
+    "summary": "Yordle pilot from Bandle City, Corki is an ace aviator with a love for flying. He engages in aerial combat with his trusty modified aircraft, the ROFLcopter."
+  },
+  {
+    "name": "Darius",
+    "summary": "Hand of Noxus, Darius is a powerful and ruthless warrior. Armed with a massive axe, he seeks to expand the glory of Noxus on the battlefield."
+  },
+  {
+    "name": "Diana",
+    "summary": "Scorn of the Moon from Mount Targon, Diana is a fierce and disciplined warrior. Drawn to the moon's power, she wields a crescent blade in the name of the Lunari."
+  },
+  {
+    "name": "Draven",
+    "summary": "Glorious Executioner from Noxus, Draven is a showman in the arena. Master of spinning axes, he craves adoration and lives for the applause of the crowd."
+  },
+  {
+    "name": "Dr. Mundo",
+    "summary": "Madman of Zaun, Dr. Mundo is a berserker with questionable sanity. Experimented on in Zaun's labs, he wields a massive cleaver and seeks pain and suffering."
+  },
+  {
+    "name": "Ekko",
+    "summary": "Boy who Shattered Time from Zaun, Ekko is a street-smart inventor. Using a stolen time device, he manipulates time to outplay enemies and right wrongs."
+  },
+  {
+    "name": "Elise",
+    "summary": "Spider Queen from the Shadow Isles, Elise is a deadly sorceress. She can transform into a giant spider, weaving dark magic and commanding legions of spiders."
+  },
+  {
+    "name": "Evelynn",
+    "summary": "Agony's Embrace from the Shadow Isles, Evelynn is a seductive and demonic assassin. Cloaked in shadows, she preys on the desires of her victims."
+  },
+  {
+    "name": "Ezreal",
+    "summary": "Prodigious Explorer from Piltover, Ezreal is an adventurous treasure hunter. Known for his wit and charm, he seeks ancient artifacts and thrives on discovery."
+  },
+  {
+    "name": "Fiddlesticks",
+    "summary": "Ancient Fear from parts unknown, Fiddlesticks is a nightmarish scarecrow. Awakened after centuries, it brings terror with its haunting presence and deadly magic."
+  },
+  {
+    "name": "Fiora",
+    "summary": "Grand Duelist from Demacia, Fiora is a master fencer and noble warrior. Seeking perfection in combat, she duels to uphold her family's honor."
+  },
+  {
+    "name": "Fizz",
+    "summary": "Tidal Trickster from Bilgewater, Fizz is a mischievous yordle. Master of the seas, he uses his agility and tricks to outmaneuver enemies."
+  },
+  {
+    "name": "Galio",
+    "summary": "Colossus from Demacia, Galio is a gargantuan stone golem. Created to protect Demacia, he transforms to shield allies from harm and punish wrongdoers."
+  },
+  {
+    "name": "Gangplank",
+    "summary": "Saltwater Scourge from Bilgewater, Gangplank is a ruthless pirate captain. With his ship, the Dead Pool, he commands the seas with terror and brutality."
+  },
+  {
+    "name": "Garen",
+    "summary": "Might of Demacia, Garen is a powerful and loyal warrior. Known for his unwavering strength and justice, he fights for the glory of Demacia."
+  },
+  {
+    "name": "Gnar",
+    "summary": "Missing Link from Freljord, Gnar is a yordle transformed by ancient magic. Alternating between adorable yordle and fierce beast, he brings chaos to the battlefield."
+  },
+  {
+    "name": "Gragas",
+    "summary": "Rabble Rouser from the Freljord, Gragas is a brawling brewmaster. Seeking the perfect brew, he uses his potent concoctions to create chaos in battle."
+  },
+  {
+    "name": "Graves",
+    "summary": "Outlaw from Bilgewater, Graves is a gritty gunslinger. Betrayed by his partner, he seeks revenge with his trusty shotgun, Destiny, and a thirst for justice."
+  },
+  {
+    "name": "Gwen",
+    "summary": "Hallowed Seamstress from the Shadow Isles, Gwen is a unique creation brought to life by magic. Animated from a magical doll, she wields a giant pair of scissors, seeking to unravel the mysteries of her existence."
+  },
+  {
+    "name": "Hecarim",
+    "summary": "Shadow of War from the Shadow Isles, Hecarim is a spectral cavalryman. Led by his thirst for battle, he charges into the fray, trampling enemies beneath his hooves."
+  },
+  {
+    "name": "Heimerdinger",
+    "summary": "Yordle Inventor from Piltover, Heimerdinger is a brilliant scientist. Armed with his inventions, including turrets and grenades, he defends Piltover with unmatched intellect."
+  },
+  {
+    "name": "Illaoi",
+    "summary": "Kraken Priestess from Bilgewater, Illaoi is a powerful warrior. Devoted to the goddess Nagakabouros, she uses her tentacle idol to test the strength of others."
+  },
+  {
+    "name": "Irelia",
+    "summary": "Blade Dancer from Ionia, Irelia is a master of dancing blades. Seeking justice for her homeland, she wields her iconic floating blades with deadly precision."
+  },
+  {
+    "name": "Ivern",
+    "summary": "Green Father from the Freljord, Ivern is a gentle and nature-loving spirit. He roams the forest, spreading life and kindness to all creatures."
+  },
+  {
+    "name": "Janna",
+    "summary": "Storm's Fury from Zaun, Janna is an elemental sorceress. Harnessing the power of wind, she protects the innocent and maintains balance in the world."
+  },
+  {
+    "name": "Jarvan IV",
+    "summary": "Exemplar of Demacia, Jarvan IV is a noble prince. Leading with honor, he fights to defend Demacia and uphold the ideals of justice and loyalty."
+  },
+  {
+    "name": "Jax",
+    "summary": "Grandmaster at Arms from Icathia, Jax is a powerful and mysterious warrior. Armed with a lamppost, he seeks formidable opponents to challenge his combat skills."
+  },
+  {
+    "name": "Jayce",
+    "summary": "Defender of Tomorrow from Piltover, Jayce is a brilliant inventor. Wielding his transforming Mercury Hammer and Mercury Cannon, he fights for a brighter future."
+  },
+  {
+    "name": "Jhin",
+    "summary": "Virtuoso from Ionia, Jhin is a meticulous and artistic assassin. Obsessed with perfection, he turns each kill into a carefully crafted masterpiece."
+  },
+  {
+    "name": "Jinx",
+    "summary": "Loose Cannon from Piltover, Jinx is a manic and unpredictable criminal. Known for her chaotic and explosive tendencies, she wreaks havoc in Piltover and enjoys every moment of mayhem."
+  },
+  {
+    "name": "Kai'Sa",
+    "summary": "Daughter of the Void from Shurima, Kai'Sa is a Void marksman. Struggling for survival, she merges with a Void creature to become a powerful and adaptive hunter."
+  },
+  {
+    "name": "Kalista",
+    "summary": "Spear of Vengeance from the Shadow Isles, Kalista is a spectral marksman. Bound by vengeance, she seeks to fulfill oaths and bring justice to betrayers."
+  },
+  {
+    "name": "Karma",
+    "summary": "Enlightened One from Ionia, Karma is a serene and powerful mage. Channeling the spirit of Ionia, she uses her mantra to empower allies and bring balance."
+  },
+  {
+    "name": "Karthus",
+    "summary": "Deathsinger from the Shadow Isles, Karthus is a powerful lich. Devoted to the pursuit of death, he unleashes devastating magic to consume his enemies."
+  },
+  {
+    "name": "Kassadin",
+    "summary": "Voidwalker from the Void, Kassadin is a determined seeker of forbidden knowledge. Transformed by the Void, he wields anti-magic to combat its influence."
+  },
+  {
+    "name": "Katarina",
+    "summary": "Sinister Blade from Noxus, Katarina is an agile assassin. Renowned for her deadly skills, she revels in chaos and carnage on the battlefield."
+  },
+  {
+    "name": "Kayle",
+    "summary": "Righteous from Demacia, Kayle is a celestial warrior. Empowered by divine forces, she wields a magical sword to bring justice and order to the world."
+  },
+  {
+    "name": "Kayn",
+    "summary": "Shadow Reaper from Ionia, Kayn is a versatile assassin. Bound to the sentient weapon Rhaast, he struggles with the balance of power within him."
+  },
+  {
+    "name": "Kennen",
+    "summary": "Heart of the Tempest from Ionia, Kennen is a yordle ninja. Harnessing electrical energy, he strikes with lightning-fast agility to protect his homeland."
+  },
+  {
+    "name": "Kha'Zix",
+    "summary": "Voidreaver from the Void, Kha'Zix is an adaptive predator. Evolving with each kill, he hunts powerful prey to assimilate their strengths."
+  },
+  {
+    "name": "Kindred",
+    "summary": "Eternal Hunters from the spirit realm, Kindred is a duo of mystical beings. Lamb, the gentle guide, and Wolf, the relentless hunter, seek those at the end of life."
+  },
+  {
+    "name": "Kled",
+    "summary": "Cantankerous Cavalier from Noxus, Kled is a relentless warrior. Mounted on his trusty steed, Skaarl, he charges into battle with reckless abandon."
+  },
+  {
+    "name": "Kog'Maw",
+    "summary": "Mouth of the Abyss from the Void, Kog'Maw is a voracious voidborn. Consuming everything in its path, Kog'Maw spews out corrosive ooze and explosive projectiles."
+  },
+  {
+    "name": "LeBlanc",
+    "summary": "Deceiver from Noxus, LeBlanc is a manipulative sorceress. Skilled in illusions and duplicity, she serves the Black Rose and weaves chaos in the political landscape."
+  },
+  {
+    "name": "Lee Sin",
+    "summary": "Blind Monk from Ionia, Lee Sin is a martial artist. Despite his blindness, he navigates the world with incredible senses and unmatched combat prowess."
+  },
+  {
+    "name": "Leona",
+    "summary": "Radiant Dawn from Mount Targon, Leona is a radiant warrior. Chosen by the sun, she wields the power of light to defend Targon and uphold justice."
+  },
+  {
+    "name": "Lillia",
+    "summary": "Bashful Bloom from Ionia, Lillia is a dreamy and magical entity. Connected to the spirit realm, she roams through dreams and the world, spreading tranquility."
+  },
+  {
+    "name": "Lissandra",
+    "summary": "Ice Witch from the Freljord, Lissandra is a powerful sorceress. Manipulating ice and dark magic, she seeks to control the world and plunge it into eternal winter."
+  },
+  {
+    "name": "Lucian",
+    "summary": "Purifier from Demacia, Lucian is a relentless marksman. Driven by vengeance, he hunts the undead and wields dual relic pistols with deadly accuracy."
+  },
+  {
+    "name": "Lulu",
+    "summary": "Fae Sorceress from Bandle City, Lulu is a mischievous yordle. Gifted with magical powers, she uses whimsical spells to enchant and disrupt the battlefield."
+  },
+  {
+    "name": "Lux",
+    "summary": "Lady of Luminosity from Demacia, Lux is a radiant mage. Harnessing light magic, she protects Demacia with her dazzling abilities and unwavering sense of justice."
+  },
+  {
+    "name": "Malphite",
+    "summary": "Shard of the Monolith from Icathia, Malphite is a colossal rock elemental. Seeking harmony, he opposes those who would disturb the balance of the natural world."
+  },
+  {
+    "name": "Malzahar",
+    "summary": "Prophet of the Void from the Void, Malzahar is a seer corrupted by the Void. His visions guide him to unravel the mysteries of the cosmos and spread the Void's influence."
+  },
+  {
+    "name": "Maokai",
+    "summary": "Twisted Treant from the Shadow Isles, Maokai is a vengeful nature spirit. Infused with dark magic, he seeks to cleanse the Shadow Isles of corruption."
+  },
+  {
+    "name": "Master Yi",
+    "summary": "Wuju Bladesman from Ionia, Master Yi is a disciplined martial artist. Mastering the art of Wuju, he seeks enlightenment and hones his skills as a blade master."
+  },
+  {
+    "name": "Miss Fortune",
+    "summary": "Bounty Hunter from Bilgewater, Miss Fortune is a deadly marksman. Driven by revenge, she seeks to reclaim her position and fortune among the criminal underworld."
+  },
+  {
+    "name": "Mordekaiser",
+    "summary": "Iron Revenant from the Shadow Isles, Mordekaiser is a powerful warlord. Forged into an unstoppable juggernaut, he seeks to conquer and dominate all in his path."
+  },
+  {
+    "name": "Morgana",
+    "summary": "Fallen Angel from Demacia, Morgana is a fallen celestial being. Embracing dark magic, she rebels against her kin to bring justice to the oppressed."
+  },
+  {
+    "name": "Nami",
+    "summary": "Tidecaller from the Marai, Nami is a benevolent aquatic mage. Guided by the moonstone, she protects her people and maintains balance in the seas."
+  },
+  {
+    "name": "Nasus",
+    "summary": "Curator of the Sands from Shurima, Nasus is an ascended being. Preserving ancient knowledge, he wields the power of the sands to defend Shurima."
+  },
+  {
+    "name": "Nautilus",
+    "summary": "Titan of the Depths from the Freljord, Nautilus is a colossal sea titan. Ensnared by dark magic, he seeks those responsible for his transformation and wreaks havoc on the seas."
+  },
+  {
+    "name": "Neeko",
+    "summary": "Curious Chameleon from the Vastaya, Neeko is a magical shapeshifter. Mimicking the forms of others, she brings both whimsy and cunning to the battlefield."
+  },
+  {
+    "name": "Nidalee",
+    "summary": "Bestial Huntress from the Kumungu Jungle, Nidalee is a primal huntress. Shapeshifting between human and cougar forms, she defends her territory with primal instincts."
+  },
+  {
+    "name": "Nocturne",
+    "summary": "Eternal Nightmare from the Shadow Isles, Nocturne is a haunting entity. Feeding on fear, he plunges the world into darkness and terrorizes the dreams of the living."
+  },
+  {
+    "name": "Nunu & Willump",
+    "summary": "Boy and Yeti from the Freljord, Nunu and Willump are inseparable companions. Embarking on adventures, they bring joy to the harsh lands of the Freljord."
+  },
+  {
+    "name": "Olaf",
+    "summary": "Berserker from the Freljord, Olaf is a fearsome warrior. Driven by the thrill of battle, he seeks glory and challenges the strongest opponents."
+  },
+  {
+    "name": "Orianna",
+    "summary": "Lady of Clockwork from Piltover, Orianna is an artificial being. Bound to a clockwork body, she dances gracefully and brings harmony to the City of Progress."
+  },
+  {
+    "name": "Ornn",
+    "summary": "Fire below the Mountain from the Freljord, Ornn is a powerful blacksmith. Crafting legendary items, he roams the Freljord, creating masterpieces and facing mighty foes."
+  },
+  {
+    "name": "Pantheon",
+    "summary": "Unbreakable Spear from Mount Targon, Pantheon is a steadfast warrior. Chosen by the Aspect of War, he wields a celestial spear to protect the mortal realm."
+  },
+  {
+    "name": "Poppy",
+    "summary": "Keeper of the Hammer from Demacia, Poppy is a determined yordle. Wielding the legendary hammer, Whomper, she seeks to fulfill her duties as the Keeper of the Hammer."
+  },
+  {
+    "name": "Pyke",
+    "summary": "Drowned Man from Bilgewater, Pyke is a vengeful revenant. Betrayed and transformed by the deep, he hunts down those who have wronged him on the high seas."
+  },
+  {
+    "name": "Qiyana",
+    "summary": "Empress of the Elements from Ixtal, Qiyana is a skilled elemental assassin. Controlling the power of the land, she seeks to assert her dominance and rule Ixtal."
+  },
+  {
+    "name": "Quinn",
+    "summary": "Demacia's Wings from Demacia, Quinn is an elite ranger. Teaming up with her eagle, Valor, she scouts the battlefield and defends Demacia with precision and speed."
+  },
+  {
+    "name": "Rakan",
+    "summary": "Charmer from Ionia, Rakan is a flamboyant vastaya. Partnered with Xayah, the Rebel, he dances into battle and dazzles enemies with his acrobatic style."
+  },
+  {
+    "name": "Rammus",
+    "summary": "Armordillo from Shurima, Rammus is a resilient creature. Covered in spiked armor, he rolls into foes, taunting and disrupting enemies with his defensive prowess."
+  },
+  {
+    "name": "Rek'Sai",
+    "summary": "Void Burrower from the Void, Rek'Sai is a relentless predator. Tunneling through the ground, she hunts down prey and disrupts the battlefield with her ferocity."
+  },
+  {
+    "name": "Rell",
+    "summary": "Iron Maiden from Noxus, Rell is a formidable tank. Forged in iron, she controls metal and shapes it into powerful weapons to defend her allies and seek justice."
+  },
+  {
+    "name": "Renekton",
+    "summary": "Butcher of the Sands from Shurima, Renekton is a savage warrior. Transformed by the sun's fury, he wields a massive blade and seeks vengeance in the desert."
+  },
+  {
+    "name": "Rengar",
+    "summary": "Pridestalker from the Vastaya, Rengar is a fearsome hunter. Driven by the thrill of the hunt, he stalks powerful prey and collects trophies as a testament to his skill."
+  },
+  {
+    "name": "Riven",
+    "summary": "Exile from Ionia, Riven is a masterful swordswoman. Broken by betrayal, she wields a broken sword and seeks redemption on the battlefield."
+  },
+  {
+    "name": "Rumble",
+    "summary": "Mechanical Menace from Bandle City, Rumble is a brilliant inventor. Riding his powerful mech, Tristy, he brings chaos to the battlefield with his explosive gadgets."
+  },
+  {
+    "name": "Ryze",
+    "summary": "Rogue Mage from the Freljord, Ryze is a powerful mage. Wielding ancient arcane runes, he seeks to unlock the secrets of the world and prevent its destruction."
+  },
+  {
+    "name": "Samira",
+    "summary": "Daredevil from Shurima, Samira is a skilled marksman. Fueled by adrenaline, she seeks the ultimate challenge, taking on the most dangerous foes with her flashy style."
+  },
+  {
+    "name": "Sejuani",
+    "summary": "Winter's Wrath from the Freljord, Sejuani is a fierce warleader. Riding her drüvask boar, Bristle, she commands the Winter's Wrath and seeks to unite the tribes of the Freljord."
+  },
+  {
+    "name": "Senna",
+    "summary": "Redeemer from Demacia, Senna is a marksman empowered by light. Freed from Thresh's lantern, she wields a relic cannon to bring justice to the Shadow Isles."
+  },
+  {
+    "name": "Seraphine",
+    "summary": "Starry-Eyed Songstress from Piltover, Seraphine is a musical mage. Harnessing the power of sound, she seeks to unite the people of Piltover and Zaun through her music."
+  },
+  {
+    "name": "Sett",
+    "summary": "Boss from Ionia, Sett is a powerful pit fighter. Determined to rise to the top, he uses his exceptional strength and combat skills to dominate the fighting pits."
+  },
+  {
+    "name": "Shaco",
+    "summary": "Demon Jester from parts unknown, Shaco is a sinister jester. Spreading chaos with his deceptive tricks and deadly shiv, he revels in the madness he creates."
+  },
+  {
+    "name": "Shen",
+    "summary": "Eye of Twilight from Ionia, Shen is a disciplined ninja. Protector of balance, he wields a mystical blade and travels between realms to uphold justice and peace."
+  },
+  {
+    "name": "Shyvana",
+    "summary": "Half-Dragon from Demacia, Shyvana is a powerful dragon-hybrid. Born of fire and fury, she defends Demacia and harnesses the power of dragonkind in battle."
+  },
+  {
+    "name": "Singed",
+    "summary": "Mad Chemist from Zaun, Singed is a deranged alchemist. Leaving a trail of toxic fumes, he seeks to perfect his experiments and revels in chaos."
+  },
+  {
+    "name": "Sion",
+    "summary": "Undead Juggernaut from Noxus, Sion is an unstoppable force. Reanimated with dark magic, he charges into battle, smashing enemies and leaving destruction in his wake."
+  },
+  {
+    "name": "Sivir",
+    "summary": "Battle Mistress from Shurima, Sivir is a skilled mercenary. Wielding the legendary crossblade, Boomerang Blade, she seeks fortune and glory on the battlefield."
+  },
+  {
+    "name": "Skarner",
+    "summary": "Crystal Vanguard from the Crystal Scar, Skarner is a guardian of the Brackern. Protecting his kind, he uses crystal magic to control the battlefield and defend the sacred spires."
+  },
+  {
+    "name": "Sona",
+    "summary": "Maven of the Strings from Demacia, Sona is a mute musician. Using enchanted melodies, she heals allies and disrupts enemies, bringing harmony to the battlefield."
+  },
+  {
+    "name": "Soraka",
+    "summary": "Starchild from Mount Targon, Soraka is a celestial healer. Sacrificing her immortality, she walks among mortals to bring compassion and healing to the world."
+  },
+  {
+    "name": "Swain",
+    "summary": "Noxian Grand General from Noxus, Swain is a strategic mastermind. Possessed by a demon, he commands the military might of Noxus and seeks to expand its influence."
+  },
+  {
+    "name": "Sylas",
+    "summary": "Unshackled from Demacia, Sylas is a mage revolutionary. Stealing the magic of his captors, he fights for the oppressed and challenges the ruling order of Demacia."
+  },
+  {
+    "name": "Syndra",
+    "summary": "Dark Sovereign from Ionia, Syndra is a powerful mage. Harnessing dark magic, she seeks to expand her power and control the forces that shape reality."
+  },
+  {
+    "name": "Tahm Kench",
+    "summary": "River King from the Freljord, Tahm Kench is a cunning river demon. Using his vast appetite, he devours both the living and the unwary, accumulating their secrets."
+  },
+  {
+    "name": "Taliyah",
+    "summary": "Stoneweaver from Shurima, Taliyah is an elemental mage. Manipulating the earth, she journeys to master her powers and reshape the world."
+  },
+  {
+    "name": "Talon",
+    "summary": "Blade's Shadow from Noxus, Talon is a deadly assassin. Trained in the art of assassination, he serves Noxus and strikes fear into the hearts of his enemies."
+  },
+  {
+    "name": "Taric",
+    "summary": "Shield of Valoran from Demacia, Taric is a protector of beauty. Wielding the power of the stars, he shields his allies and stands against darkness."
+  },
+  {
+    "name": "Teemo",
+    "summary": "Swift Scout from Bandle City, Teemo is a mischievous yordle. Expert in guerilla warfare, he deploys traps and toxins to defend Bandle City from threats."
+  },
+  {
+    "name": "Thresh",
+    "summary": "Chain Warden from the Shadow Isles, Thresh is a sadistic collector. Wielding a lantern of souls, he traps and torments the spirits of the living and the dead."
+  },
+  {
+    "name": "Tristana",
+    "summary": "Yordle Gunner from Bandle City, Tristana is an explosive artillery yordle. With her trusty cannon, Boomer, she defends Bandle City from any threat."
+  },
+  {
+    "name": "Trundle",
+    "summary": "Troll King from the Freljord, Trundle is a cunning troll. Using his wit and might, he seeks to expand his domain and assert his dominance in the Freljord."
+  },
+  {
+    "name": "Tryndamere",
+    "summary": "Barbarian King from the Freljord, Tryndamere is a fearsome warrior. Driven by rage, he wields a massive sword and seeks to conquer all who oppose him."
+  },
+  {
+    "name": "Twisted Fate",
+    "summary": "Card Master from the Freljord, Twisted Fate is a gambler and mage. Wielding magical cards, he seeks fortune and adventure on the unpredictable streets of Runeterra."
+  },
+  {
+    "name": "Twitch",
+    "summary": "Plague Rat from Zaun, Twitch is a devious vermin. Infected by Zaun's toxic sludge, he spreads chaos and disease, ambushing enemies with his venomous attacks."
+  },
+  {
+    "name": "Udyr",
+    "summary": "Spirit Walker from Ionia, Udyr is a primal warrior. Channeling the power of the animal spirits, he embraces the wilds and seeks balance in the natural order."
+  },
+  {
+    "name": "Urgot",
+    "summary": "Dreadnought from Noxus, Urgot is a monstrous war machine. Transformed and augmented by Noxian techmaturgy, he seeks to enforce Noxus's will on the battlefield."
+  },
+  {
+    "name": "Varus",
+    "summary": "Arrow of Retribution from Ionia, Varus is a corrupted archer. Bound by dark magic, he seeks revenge on those who betrayed and transformed him into a living weapon."
+  },
+  {
+    "name": "Vayne",
+    "summary": "Night Hunter from Demacia, Vayne is a relentless hunter. Driven by a personal vendetta, she seeks out and eliminates supernatural threats with her crossbow, Night Hunter."
+  },
+  {
+    "name": "Veigar",
+    "summary": "Tiny Master of Evil from Bandle City, Veigar is an ambitious yordle. Obsessed with power, he wields dark magic to grow in strength and conquer his foes."
+  },
+  {
+    "name": "Vel'Koz",
+    "summary": "Eye of the Void from the Void, Vel'Koz is a voidborn entity. Driven by insatiable curiosity, he analyzes and disintegrates all in his path to understand the nature of the universe."
+  },
+  {
+    "name": "Vi",
+    "summary": "Piltover Enforcer from Piltover, Vi is a brash enforcer. With her gauntlets, Hextech fists, she delivers powerful punches and seeks justice on the turbulent streets of Piltover."
+  },
+  {
+    "name": "Viego",
+    "summary": "Ruined King from the Shadow Isles, Viego is a tormented king. Consumed by the Black Mist, he seeks to reunite with his lost queen, destroying everything in his path."
+  },
+  {
+    "name": "Viktor",
+    "summary": "Machine Herald from Zaun, Viktor is a visionary inventor. Augmenting his body with hextech, he seeks to transcend humanity and bring progress to the people of Zaun."
+  },
+  {
+    "name": "Vladimir",
+    "summary": "Crimson Reaper from Noxus, Vladimir is a vampiric sorcerer. Manipulating blood magic, he sustains his immortality and seeks power within the heart of Noxus."
+  },
+  {
+    "name": "Volibear",
+    "summary": "Relentless Storm from the Freljord, Volibear is a thunderous demigod. Embodying the power of the storm, he defends the Freljord from all who threaten its sacred lands."
+  },
+  {
+    "name": "Warwick",
+    "summary": "Uncaged Wrath of Zaun from Zaun, Warwick is a relentless predator. Experimented on with toxic chemicals, he hunts the streets of Zaun, seeking those who deserve punishment."
+  },
+  {
+    "name": "Wukong",
+    "summary": "Monkey King from Ionia, Wukong is a nimble warrior. With his staff, Wuju, he excels in agility and guerrilla tactics, defending Ionia from those who seek to harm it."
+  },
+  {
+    "name": "Xayah",
+    "summary": "Rebel from Ionia, Xayah is a determined vastaya. Partnered with Rakan, she wields deadly feathers and fights to free her people from oppression."
+  },
+  {
+    "name": "Xerath",
+    "summary": "Magus Ascendant from Shurima, Xerath is a mage of pure energy. Imprisoned in a magical sarcophagus, he seeks to break free and unleash his power upon the world."
+  },
+  {
+    "name": "Xin Zhao",
+    "summary": "Seneschal of Demacia from Demacia, Xin Zhao is a loyal warrior. Wielding his spear, he defends Demacia with honor and seeks to preserve the values of his homeland."
+  },
+  {
+    "name": "Yasuo",
+    "summary": "Unforgiven from Ionia, Yasuo is a wandering swordsman. Framed for a crime he did not commit, he seeks redemption and battles to clear his name on the windswept plains of Ionia."
+  },
+  {
+    "name": "Yone",
+    "summary": "Spirit of the Wind from Ionia, Yone is a skilled swordsman. Brother to Yasuo, he returns from the afterlife to seek redemption and confront the demons of his past."
+  },
+  {
+    "name": "Yorick",
+    "summary": "Shepherd of Souls from the Shadow Isles, Yorick is a gravedigger. Commanding the dead, he seeks to free the souls trapped in the Black Mist and restore the balance of life and death."
+  },
+  {
+    "name": "Yuumi",
+    "summary": "Magical Cat from Bandle City, Yuumi is a magical cat. Bonded to her magical book, Book, she assists her allies with spells and explores the world through her companions."
+  },
+  {
+    "name": "Zac",
+    "summary": "Secret Weapon from Zaun, Zac is a blob of living liquid. Created in a Zaun lab, he stretches and molds his form to capture and neutralize threats to the city-state."
+  },
+  {
+    "name": "Zed",
+    "summary": "Master of Shadows from Ionia, Zed is a deadly assassin. Mastering shadow techniques, he seeks power and vengeance against those who betrayed his order in Ionia."
+  },
+  {
+    "name": "Ziggs",
+    "summary": "Hexplosives Expert from Zaun, Ziggs is a manic inventor. Obsessed with explosives, he gleefully causes chaos and destruction with his volatile creations."
+  },
+  {
+    "name": "Zilean",
+    "summary": "Chronokeeper from Icathia, Zilean is a time mage. Manipulating the flow of time, he guards the temporal balance and aids those who seek to alter their destinies."
+  },
+  {
+    "name": "Zoe",
+    "summary": "Aspect of Twilight from Mount Targon, Zoe is a mischievous celestial being. Wielding cosmic powers, she revels in chaos and brings unpredictability to the mortal realm."
+  },
+  {
+    "name": "Zyra",
+    "summary": "Rise of the Thorns from the Freljord, Zyra is a deadly plant mage. Born from the corruption of the Freljord, she spreads her vines and controls nature to assert her dominance."
+  }
+]
